@@ -2,10 +2,10 @@
 A classifier built for the StumbleUpon Kaggle Challenge 
 -made by Sankalp Agrawal
 
----Modules used- Pytorch, torchtext, numpy, sklearn, nltk 
----Pretrained word embeddings used for constructing features (GloVe embeddings) 
----Heterogenous input has been considered (both numerical and text)
----Kindly refer the code for detailed documentation
+---Modules used- Pytorch, torchtext, numpy, sklearn, nltk <br/>
+---Pretrained word embeddings used for constructing features (GloVe embeddings) <br/>
+---Heterogenous input has been considered (both numerical and text) <br/>
+---Kindly refer the code for detailed documentation <br/>
 
 The train.tsv file was split 80:20 into train and validation sets. Sizes obtained are-
 -Size of train dataset:  5916
