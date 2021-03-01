@@ -10,7 +10,8 @@ A classifier built for the StumbleUpon Kaggle Challenge <br/>
 The train.tsv file was split 80:20 into train and validation sets. Sizes obtained are- <br/>
 -Size of train dataset:  5916 <br/>
 -Size of validation dataset:  1479 <br/>
-These are written temporarily to trainset.csv, valset.csv and testset.csv files present in the repo. Following is the approach taken to address this task-
+These are written temporarily to trainset.csv, valset.csv and testset.csv files present in the repo. <br/>
+Following is the approach taken to address this task-
 
 ## Features considered
 
@@ -58,7 +59,7 @@ ROC-AUC score obtained on the complete dataset: **0.5605**
 Classwise precision,recall (obtained through classsification report): <br/>
 **Class 0-** <br/>
 Precision: 0.57
-Recall: 0.43
+Recall: 0.43 <br/>
 **Class 1-** <br/>
 Precision: 0.56
 Recall: 0.69
@@ -67,9 +68,9 @@ The urlids and predicted labels for the test set are stored in submission_file.c
 
 ## References
 For the RNN model- <br/>
-1. https://www.kaggle.com/kuldeep7688/simple-rnn-using-glove-embeddings-in-pytorch
+1. https://www.kaggle.com/kuldeep7688/simple-rnn-using-glove-embeddings-in-pytorch <br/>
 For help in adding features, errors, these links were fruitful- <br/>
 2. https://stackoverflow.com/questions/54267919/how-can-i-add-a-feature-using-torchtext
 3. https://discuss.pytorch.org/t/cuda-error-runtimeerror-cudnn-status-execution-failed/17625
-4. https://discuss.pytorch.org/t/runtimeerror-cuda-error-cublas-status-alloc-failed-when-calling-cublascreate-handle/78545/5
+4. https://discuss.pytorch.org/t/runtimeerror-cuda-error-cublas-status-alloc-failed-when-calling-cublascreate-handle/78545/5 
 5. Pytorch, sklearn documentations
