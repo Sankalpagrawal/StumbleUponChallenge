@@ -53,8 +53,8 @@ The batches are iterated over and loss function is minimized via Adam optimizer.
 
 ### Evaluation Results
 
-Accuracy obtained on training set: **56.452%**
-Accuracy obtianed on validation set: **56.385%**
+Accuracy obtained on training set: **56.452%** <br/>
+Accuracy obtianed on validation set: **56.385%** <br/>
 ROC-AUC score obtained on the complete dataset: **0.5605** <br/>
 Classwise precision,recall (obtained through classsification report): <br/>
 **Class 0-** <br/>
